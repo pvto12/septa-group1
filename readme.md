@@ -19,3 +19,7 @@
 # git branch -m main
 
 # git push -u origin main / git push
+
+# for images:
+
+# https://labs.google/fx/tools/image-fx
