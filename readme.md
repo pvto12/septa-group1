@@ -1,6 +1,6 @@
 # Group 1 project
 
-This is the group 1 assignment README file
+# This is the group 1 assignment README file
 
 # Before doing anything kindly do this to stay up
 
