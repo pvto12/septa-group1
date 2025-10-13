@@ -12,6 +12,10 @@
 
 # To push your changes kindly follow these steps
 
+# git init
+
+# git add .
+
 # git commit -m "add what you did"
 
 # git remote add origin https://github.com/pvto12/septa-group1.git
