@@ -3,3 +3,148 @@
  padding: o;
  box-sizing: border-box;
 }
+body{
+ font-family: "poppins", sans-serif;
+}
+
+.nav-bar{
+ display: flex;
+ justify-content: center;
+ justify-content: space-around; 
+ height: 320px;
+ background-color: rgb(250, 236, 250);
+}
+
+.info{
+ display: flex;
+ gap: 13px;
+}
+
+.info p{
+ font-size: 15px;
+}
+
+.info img{
+ height: 20px;
+ width: 15px;
+ /* margin-inline: 0px; */
+ margin-top: 15px;
+}
+
+.info-call, .info-loc, .info-mail{
+ display: flex;
+}
+
+nav ul li{
+ list-style: none;
+}
+.nav-list ul li a{
+ display: flex;
+ text-decoration: none;
+ color: black;
+ /* background-color: blue; */
+}
+.nav-list ul {
+ display: flex;
+ gap: 16px;
+ margin-top: 25px;
+}
+.nav-last{
+ /* margin-top: 15px; */
+ display: flex;
+ gap: 5px;
+}
+
+.nav-last img{
+ height: 13px;
+}
+.socials button{
+ background-color: #fad47c;
+ width: 150px;
+ height: 35px;
+ border-radius: 20px;
+ margin-right: 20px;
+ margin-top: 25px;
+ border: 0px;
+}
+
+.time{
+ display: flex;
+ gap: 0px;
+}
+
+.time img{
+ height: 20px;
+ width: 15px;
+ margin-top: 15px;
+}
+.socials{
+ margin-top: 18px;
+ display: flex;
+}
+.socials img{
+ width: 15px;
+}
+
+.header{
+ display: flex;
+ gap: 480px;
+ align-items: center;
+ justify-content: center;
+}
+.services hr{
+ margin: 0px 50px;
+}
+.services p{
+ font-size: 18px;
+ margin: 55px 0px 0px 145px;
+ color: coral;
+}
+
+.header h1{
+ width: 370px;
+}
+
+.header p{
+ width: 350px;
+ font-size: 13px;
+ color:  #475569;
+}
+
+.row1, .row2{
+ display: flex;
+ gap: 20px;
+ justify-content: space-around;
+ align-items: center;
+ margin: 24px 145px;
+}
+.R-cont1, .R-cont3, .R-cont4, .C-cont1, .C-cont2, .C-cont3, .C-cont4{
+ background-color: rgb(252, 251, 250);
+ position: relative;
+}
+
+.R-cont1 img,.R-cont3 img, .R-cont4 img,.C-cont1 img,.C-cont2 img,.C-cont3 img, .C-cont4 img {
+ position: absolute;
+ right: 20px;
+ background-color: white;
+}
+
+.R-cont2{
+ background-color: #fad47c;
+ position: relative;
+}
+.R-cont2 img{
+ background-color: #fad47c;
+ position: absolute;
+ right: 20px;
+}
+
+.R-cont1, .R-cont2, .R-cont3, .R-cont4, .C-cont1, .C-cont2, .C-cont3, .C-cont4{
+ height: 290px;
+ padding: 20px;
+ border: 1px solid #dbe2ec;
+ }
+ .row1 p, .row2 p{
+   font-size: 13px;
+ color:  #475569;
+ }
