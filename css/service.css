@@ -12,7 +12,7 @@ body{
  justify-content: center;
  justify-content: space-around; 
  height: 320px;
- background-color: rgb(250, 236, 250);
+ background-color: rgb(243, 206, 243);
 }
 
 .info{
@@ -147,4 +147,70 @@ nav ul li{
  .row1 p, .row2 p{
    font-size: 13px;
  color:  #475569;
+ }
+ 
+ .section2{
+  display: flex;
+  justify-content: space-between;
+  /* gap: 135px; */
+  margin-top: 35px;
+  margin-left: 145px;
+ }
+ .text{
+  display: flex;
+  flex-direction: column;
+ }
+
+ #sec2-p{
+  font-size: 18px;
+  margin: 65px 0px 0px 145px;
+  color: coral;
+ }
+ #sec2-h{
+  margin: 15px 0px 0px 145px;
+  width: 300px;
+ }
+ #hr{
+  margin: 0px 80px;
+ }
+ .sec1{
+  display: flex;
+  gap: 45px;
+  position: relative;
+  background-color: #fad47c;
+ }
+ .sec1 img{
+  position: absolute;
+  top: 25px;
+ }
+ .sec2{
+  display: flex;
+  gap: 15px;
+ }
+ .sec3{
+  display: flex;
+  gap: 15px;
+ }
+ .sec4{
+  display: flex;
+  gap: 15px;
+ }
+ 
+ .pik{
+  background-color: rgb(250, 245, 241);
+  display: flex;
+  position: relative;
+ }
+ .pk{
+  background-color: rgb(250, 245, 241);
+  width: 800px;
+  height: 400px;
+  position: relative;
+ }
+ .pik img{
+  position: absolute;
+width: 600px;
+height: 400px;
+left: 90px;
+bottom: 150px;
  }
