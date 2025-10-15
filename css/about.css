@@ -27,6 +27,13 @@ body {
 	font-size: var(--primary-font);
 }
 
+/* General styles */
+.container {
+    padding: 0 12rem;
+
+    border: 2px solid red;
+}
+
 /* Header */
 
 /* Main */
