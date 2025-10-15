@@ -6,8 +6,9 @@
 
 :root {
 	--primary-color: #333;
-	--primary-color-0: #c026d3;
-	--primary-color-100: #701a75;
+	--bg-header: #faecfa;
+    --button-bg: #fad47c
+
 	--secondary-color: #8c8c8c;
 	--blue-gray: #404040;
 	--white: #fff;
