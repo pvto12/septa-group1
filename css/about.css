@@ -12,6 +12,9 @@
 	--blue-gray: #404040;
 	--white: #fff;
 	--tertiary-color: #d9d9d9;
+
+	--primary-font: "Poppins";
+	--secondary-font: "Montserrat";
 }
 
 html {
