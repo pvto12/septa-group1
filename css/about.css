@@ -360,8 +360,6 @@ section hr:first-child {
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
-	/* height: 8rem; */
-
 	padding: 2.8rem 0;
 }
 
@@ -374,6 +372,53 @@ section hr:first-child {
 .achievement p {
 	font-size: 1rem;
 	color: var(--grey-text);
+}
+
+/* our story */
+.our-story {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	padding: 8rem 0;
+	text-align: center;
+	font-size: 1.2rem;
+}
+
+.our-story > h4 {
+	color: var(--red);
+	font-size: 1.2rem;
+	margin: 1.2rem 0;
+}
+
+.our-story > h2 {
+	font-size: 2.4rem;
+	/* width: 64%; */
+	/* margin: 1.6rem auto; */
+
+	font-family: var(--secondary-font);
+}
+
+.choose-container {
+	width: 60rem;
+	margin: 2rem 0;
+
+	line-height: 2;
+
+	/* border: 2px solid olive; */
+}
+
+.our-story img {
+	width: 80rem;
+	padding: 2rem 0;
+}
+
+.choose-img + p {
+	width: 68rem;
+	margin: 2rem 0;
+	line-height: 2;
+
+	/* border: 2px solid olive; */
 }
 
 /* Footer */
