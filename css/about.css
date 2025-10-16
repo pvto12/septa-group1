@@ -29,26 +29,18 @@ body {
 /* General styles */
 header {
 	background-color: var(--bg-grey);
-	/* background-color: var(--tertiary-color); */
 }
 
 .nav-container {
 	padding: 0 12rem;
-
 	display: flex;
-	/* align-items: center; */
 }
 
 nav {
 	display: flex;
-	/* align-items: center; */
 	flex-direction: column;
 	justify-content: center;
 	width: 100%;
-
-	/* font-family: var(--secondary-font); */
-
-	/* background-color: black; */
 }
 
 .info {
