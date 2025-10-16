@@ -31,10 +31,109 @@ header {
 	background-color: var(--bg-grey);
 	/* background-color: var(--tertiary-color); */
 }
+
 .nav-container {
 	padding: 0 12rem;
 
-	border: 2px solid red;
+	display: flex;
+	align-items: center;
+}
+
+nav {
+	display: flex;
+	/* align-items: center; */
+	flex-direction: column;
+	justify-content: center;
+	width: 100%;
+
+	/* background-color: black; */
+}
+
+.info {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	color: var(--black);
+	/* width: 65%; */
+	padding: 4px 0 8px 0;
+}
+
+.info + div {
+	/* padding: 0 12px; */
+
+	padding-left: 12px;
+	/* display: flex; */
+	/* justify-content: center; */
+}
+
+div hr {
+	color: var(--bg-grey);
+	/* font-weight: 100; */
+	opacity: 0.2;
+
+	/* width: 100%; */
+	margin: 0 auto;
+
+	margin-bottom: 16px;
+}
+
+.contact {
+	display: flex;
+	align-items: center;
+	/* border: 2px solid red; */
+
+	/* width: 50%; */
+
+	justify-content: space-between;
+}
+
+.contact .icon {
+	margin: 0 12px;
+}
+
+.contact + div {
+	display: flex;
+	align-items: center;
+	/* border: 2px solid blue; */
+	justify-content: space-between;
+
+	/* width: 30%; */
+}
+
+.social-icons {
+	display: flex;
+	align-items: center;
+
+	justify-content: space-between;
+}
+
+.social-icons li {
+	list-style: none;
+}
+
+.social-icons li a {
+	display: block;
+	align-items: center;
+	margin: 0 4px;
+	color: var(--black);
+	/* width: 20px; */
+	/* width: 5%; */
+}
+
+.cta,
+.contac div .icon {
+	display: flex;
+	align-items: center;
+}
+
+.cta ul {
+	display: flex;
+	align-items: center;
+}
+
+.secondary-nav {
+	display: flex;
+	align-items: center;
 }
 
 /* Header */
@@ -44,7 +143,7 @@ header {
 main {
 	background-color: var(--white);
 
-	border: 2px solid red;
+	/* border: 2px solid red; */
 }
 
 section {
