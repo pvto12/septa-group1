@@ -204,7 +204,7 @@ section {
 
 .about .right-side {
 	width: 44%;
-	border: 2px solid var(red);
+	/* border: 2px solid var(red); */
 }
 
 .right-side h4 {
@@ -253,20 +253,39 @@ section {
 
 .why-choose-us {
 	display: flex;
+	justify-content: space-around;
 	border: 2px solid red;
-	gap: 8rem;
-	/* padding: 8rem 0; */
+	/* gap: 4rem; */
 
 	height: 42rem;
 }
 
 .why-choose-us .left-side {
 	padding: 0 0 0 12rem;
+	flex: 1;
+}
+.why-choose-us .left-side {
+	/* width: auto; */
+}
+
+.why-choose-us .left-side > h4 {
+	color: var(--red);
+	font-size: 1.2rem;
+	margin: 1.2rem 0;
+}
+
+.why-choose-us .left-side > h2 {
+	/* .right-side h2 { */
+	font-size: 2.4rem;
+	margin: 1.6rem 0;
+	width: 64%;
+	font-family: var(--secondary-font);
+	/* } */
 }
 
 .why-choose-us .right-side {
 	position: relative;
-	flex: 1;
+	flex: 2;
 	width: 100%;
 	border: 2px solid purple;
 }
