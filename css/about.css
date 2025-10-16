@@ -127,6 +127,7 @@ div hr {
 	outline: none;
 	border-radius: 12px;
 	font-weight: 700;
+	cursor: pointer;
 }
 
 button svg {
