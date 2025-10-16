@@ -265,6 +265,8 @@ section {
 	border: 2px solid red;
 
 	gap: 8rem;
+
+	padding: 8rem 0;
 }
 
 .why-choose-us .left-side {
@@ -306,16 +308,39 @@ section {
 	width: 50px;
 }
 
-.why-choose-us .right-side img:nth-child(1) {
-	border: 2px solid green;
-}
-
 .why-choose-us .right-side img:nth-child(2) {
-	border: 2px solid red;
+	/* border: 2px solid green; */
+
+	width: 150px;
+	height: 150px;
+
+	position: absolute;
+	top: 40px;
+	left: 30px;
 }
 
 .why-choose-us .right-side img:nth-child(3) {
-	border: 2px solid blue;
+	/* border: 2px solid red; */
+
+	width: 150px;
+	height: 160px;
+
+	position: absolute;
+	top: 0px;
+	left: 200px;
+}
+
+.why-choose-us .right-side img:nth-child(4) {
+	/* border: 2px solid blue; */
+
+	/* border: 2px solid red; */
+
+	width: 150px;
+	height: 50px;
+
+	position: absolute;
+	top: 160px;
+	left: 200px;
 }
 
 /* Footer */
