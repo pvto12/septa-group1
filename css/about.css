@@ -48,35 +48,23 @@ nav {
 	align-items: center;
 	justify-content: space-between;
 	color: var(--black);
-	/* width: 65%; */
 	padding: 4px 0 8px 0;
 }
 
 .info + div {
-	/* padding: 0 12px; */
-
 	padding-left: 12px;
-	/* display: flex; */
-	/* justify-content: center; */
 }
 
 div hr {
 	color: var(--bg-grey);
-	/* font-weight: 100; */
 	opacity: 0.2;
-
-	/* width: 100%; */
 	margin: 0 auto;
-
 	margin-bottom: 16px;
 }
 
 .contact {
 	display: flex;
 	align-items: center;
-	/* border: 2px solid red; */
-
-	/* width: 50%; */
 
 	justify-content: space-between;
 }
