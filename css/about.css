@@ -36,7 +36,7 @@ header {
 	padding: 0 12rem;
 
 	display: flex;
-	align-items: center;
+	/* align-items: center; */
 }
 
 nav {
@@ -45,6 +45,8 @@ nav {
 	flex-direction: column;
 	justify-content: center;
 	width: 100%;
+
+	/* font-family: var(--secondary-font); */
 
 	/* background-color: black; */
 }
@@ -120,20 +122,73 @@ div hr {
 	/* width: 5%; */
 }
 
-.cta,
-.contac div .icon {
+.cta {
 	display: flex;
 	align-items: center;
+	justify-content: space-between;
+
+	width: 100%;
+
+	border: 2px solid red;
+	margin-bottom: 8rem;
 }
 
 .cta ul {
 	display: flex;
 	align-items: center;
+	justify-content: space-between;
+	width: 30%;
+	margin-left: 12px;
+
+	list-style: none;
+}
+
+.cta ul li a {
+	text-decoration: none;
+	color: var(--black);
+	font-weight: 700;
+}
+
+.cta button {
+	padding: 8px 12px;
+	background-color: var(--orange);
+	border: none;
+	outline: none;
+	border-radius: 12px;
+
+	font-weight: 700;
+}
+
+button svg {
+	height: 12px;
+	width: 12px;
+	/* margin: 0; */
+	/* padding: 0; */
 }
 
 .secondary-nav {
 	display: flex;
+	flex-direction: column;
 	align-items: center;
+	justify-content: center;
+
+	padding: 2rem 0 8rem 0;
+
+	/* border: 2px solid red; */
+}
+
+.secondary-nav ul {
+	display: flex;
+	/* justify-content: space-between; */
+}
+
+.secondary-nav ul li {
+	margin: 0 8px;
+	list-style: none;
+}
+
+.secondary-nav ul li a {
+	text-decoration: none;
 }
 
 /* Header */
