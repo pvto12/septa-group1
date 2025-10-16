@@ -10,6 +10,7 @@
 	--bg-orange: #fff8d8;
 	--bg-grey: #edeae0;
 	--grey: #f0efea;
+	--grey-text: #696969;
 	--white: #f8f8ff;
 	--duke-blue: #012169;
 	--red: #ee4b2b;
@@ -178,6 +179,7 @@ main {
 
 section {
 	padding: 0 12rem;
+	margin: 4.8rem 0;
 }
 
 .our-story,
@@ -204,7 +206,6 @@ section {
 
 .about .right-side {
 	width: 44%;
-	/* border: 2px solid var(red); */
 }
 
 .right-side h4 {
@@ -255,6 +256,8 @@ section {
 	display: flex;
 	justify-content: space-around;
 	height: 42rem;
+
+	margin: 4rem 0;
 }
 
 .why-choose-us .left-side {
@@ -312,11 +315,12 @@ section {
 
 .background {
 	width: 100%;
-	height: 20rem;
+	height: 28rem;
 	flex: 1;
 	position: absolute;
-	top: 50%;
+	top: 28%;
 	left: 0;
+	bottom: 0;
 	background-color: var(--bg-grey);
 }
 
@@ -334,18 +338,42 @@ section {
 
 .why-choose-us .right-side img:nth-child(3) {
 	width: 200px;
-	height: 240px;
+	height: 200px;
 	position: absolute;
-	top: 20px;
+	top: 0px;
 	left: 32rem;
 }
 
 .why-choose-us .right-side img:nth-child(4) {
 	width: 200px;
-	height: 100px;
+	height: 140px;
 	position: absolute;
-	top: 280px;
+	top: 224px;
 	left: 32rem;
+}
+
+section hr:first-child {
+	margin: 0;
+}
+
+.achievements {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	/* height: 8rem; */
+
+	padding: 2.8rem 0;
+}
+
+.achievement h3 {
+	font-size: 2.8rem;
+	text-decoration: underline;
+	margin-bottom: 0.4rem;
+}
+
+.achievement p {
+	font-size: 1rem;
+	color: var(--grey-text);
 }
 
 /* Footer */
