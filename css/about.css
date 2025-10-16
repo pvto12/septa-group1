@@ -413,6 +413,43 @@ section hr:first-child {
 	line-height: 2;
 }
 
+/* team */
+
+.top {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.top h4 {
+	color: var(--red);
+	font-size: 1.2rem;
+	margin: 1.2rem 0;
+}
+
+.right > h2 {
+	font-size: 2.4rem;
+	width: 20rem;
+	font-family: var(--secondary-font);
+}
+
+.top button {
+	padding: 9.2px 12px;
+	background-color: transparent;
+	/* border: none; */
+	/* outline: none; */
+	border-radius: 24px;
+	font-weight: 700;
+	cursor: pointer;
+	border: 1px solid var(--black);
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	/* border: 2px solid red; */
+}
+
 /* Footer */
 footer {
 	background-color: #06192c;
