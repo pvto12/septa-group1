@@ -279,13 +279,11 @@ section {
 	display: flex;
 	gap: 2rem;
 	align-items: center;
-	border: 2px solid green;
 	margin: 1.2rem 0;
 }
 
 .reason span {
 	padding: 0.8rem;
-	border: 2px solid var(--grey);
 	border-radius: 50%;
 	display: flex;
 	align-items: center;
@@ -310,7 +308,6 @@ section {
 	position: relative;
 	flex: 2;
 	width: 100%;
-	border: 2px solid purple;
 }
 
 .background {
