@@ -393,19 +393,13 @@ section hr:first-child {
 
 .our-story > h2 {
 	font-size: 2.4rem;
-	/* width: 64%; */
-	/* margin: 1.6rem auto; */
-
 	font-family: var(--secondary-font);
 }
 
 .choose-container {
 	width: 60rem;
 	margin: 2rem 0;
-
 	line-height: 2;
-
-	/* border: 2px solid olive; */
 }
 
 .our-story img {
@@ -417,8 +411,6 @@ section hr:first-child {
 	width: 68rem;
 	margin: 2rem 0;
 	line-height: 2;
-
-	/* border: 2px solid olive; */
 }
 
 /* Footer */
