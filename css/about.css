@@ -5,14 +5,10 @@
 }
 
 :root {
-	--primary-color: #333;
-	--bg-header: #faecfa;
-    --button-bg: #fad47c
-
-	--secondary-color: #8c8c8c;
-	--blue-gray: #404040;
-	--white: #fff;
-	--tertiary-color: #d9d9d9;
+	--black: #282d30;
+	--orange: #e99700;
+	--bg-orange: #fff8d8;
+	--grey: #f0efea;
 
 	--primary-font: "Poppins";
 	--secondary-font: "Montserrat";
@@ -29,12 +25,12 @@ body {
 
 /* General styles */
 header {
-    background-color: var(--tertiary-color);
+	background-color: var(--tertiary-color);
 }
 .nav-container {
-    padding: 0 12rem;
+	padding: 0 12rem;
 
-    border: 2px solid red;
+	border: 2px solid red;
 }
 
 /* Header */
