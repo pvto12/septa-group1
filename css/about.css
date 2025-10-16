@@ -414,7 +414,6 @@ section hr:first-child {
 }
 
 /* team */
-
 .top {
 	display: flex;
 	justify-content: space-between;
@@ -436,18 +435,53 @@ section hr:first-child {
 .top button {
 	padding: 9.2px 12px;
 	background-color: transparent;
-	/* border: none; */
-	/* outline: none; */
 	border-radius: 24px;
 	font-weight: 700;
 	cursor: pointer;
 	border: 1px solid var(--black);
-
 	display: flex;
 	align-items: center;
 	justify-content: center;
+}
 
-	/* border: 2px solid red; */
+.members {
+	display: flex;
+	gap: 2rem;
+	align-items: center;
+	justify-content: space-between;
+	margin: 3.2rem 0;
+}
+
+.members img {
+	width: 100%;
+}
+
+.member {
+	width: 25%;
+}
+
+.member h4 {
+	font-size: 1.2rem;
+	margin: 0.8rem 0;
+}
+
+.next {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-bottom: 6.4rem;
+}
+
+.next span {
+	width: 0.84rem;
+	height: 0.84rem;
+	margin: 0 0.4rem;
+	background-color: var(--bg-grey);
+	border-radius: 50%;
+}
+
+.next .active {
+	background-color: var(--black);
 }
 
 /* Footer */
