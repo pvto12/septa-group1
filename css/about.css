@@ -12,6 +12,7 @@
 	--grey: #f0efea;
 	--white: #f8f8ff;
 	--duke-blue: #012169;
+	--red: #ee4b2b;
 
 	--primary-font: "Poppins";
 	--secondary-font: "Montserrat";
@@ -184,6 +185,162 @@ section {
 .our-story,
 .update {
 	background-color: var(--bg-grey);
+}
+
+.about {
+	display: flex;
+	justify-content: space-around;
+	width: 90%;
+	margin: 0 auto;
+	padding: 6rem 18rem;
+	gap: 6.4rem;
+}
+
+.about .left-side {
+	width: 40%;
+}
+
+.about .left-side img {
+	/* flex: 1; */
+	/* object-fit: cover; */
+	width: 32rem;
+	/* height: 100%; */
+}
+
+.about .right-side {
+	/* flex: 1; */
+	width: 44%;
+	border: 2px solid var(red);
+}
+
+.right-side h4 {
+	color: var(--red);
+	font-size: 1.2rem;
+	margin: 1.2rem 0;
+}
+
+.right-side h2 {
+	/* color: var(--red); */
+	font-size: 2.4rem;
+	margin: 1.6rem 0;
+	width: 80%;
+
+	font-family: var(--secondary-font);
+}
+
+.right-side p {
+	margin: 2.4rem 0;
+	line-height: 2;
+}
+
+.about .cta {
+	display: flex;
+	justify-content: flex-start;
+	gap: 4rem;
+}
+
+.about button {
+	background-color: var(--black);
+	color: var(--white);
+}
+
+.video {
+	display: flex;
+	align-items: center;
+	cursor: pointer;
+}
+
+.video svg {
+	height: 42px;
+	width: 42px;
+}
+
+.video p {
+	font-weight: 700;
+}
+
+.why-choose-us {
+	display: flex;
+
+	border: 2px solid red;
+
+	gap: 8rem;
+
+	padding: 8rem 0;
+}
+
+.why-choose-us .left-side {
+	padding: 0 0 0 12rem;
+}
+
+.why-choose-us .right-side {
+	position: relative;
+	/* display: flex; */
+	flex: 1;
+
+	width: 100%;
+	/* height: 50%; */
+
+	/* margin-top: 130px; */
+
+	/* display: flex; */
+	/* align-items: flex-end; */
+
+	border: 2px solid purple;
+
+	/* background-color: var(--bg-grey); */
+}
+
+.background {
+	width: 100%;
+	height: 70%;
+	flex: 1;
+
+	position: absolute;
+	top: 30%;
+	left: 0;
+
+	background-color: var(--bg-grey);
+}
+
+.why-choose-us .right-side img {
+	/* display: block; */
+	width: 50px;
+}
+
+.why-choose-us .right-side img:nth-child(2) {
+	/* border: 2px solid green; */
+
+	width: 150px;
+	height: 150px;
+
+	position: absolute;
+	top: 40px;
+	left: 30px;
+}
+
+.why-choose-us .right-side img:nth-child(3) {
+	/* border: 2px solid red; */
+
+	width: 150px;
+	height: 160px;
+
+	position: absolute;
+	top: 0px;
+	left: 200px;
+}
+
+.why-choose-us .right-side img:nth-child(4) {
+	/* border: 2px solid blue; */
+
+	/* border: 2px solid red; */
+
+	width: 150px;
+	height: 50px;
+
+	position: absolute;
+	top: 160px;
+	left: 200px;
 }
 
 /* Footer */

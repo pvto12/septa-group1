@@ -34,7 +34,6 @@ h3{
     font-size: 0.9rem;
     font-weight: 400;
     color: var(--text-color);
-    margin: 0;
 }
 
 h4{
@@ -65,7 +64,6 @@ h4{
 #section2{
     display: grid;
     grid-template-columns: 2fr 1fr;
-    /* border: 1px solid crimson; */
     width: 70vw;
     height: auto;
     margin: 5% auto;
@@ -118,11 +116,19 @@ h4{
 #section3{
     display: grid;
     grid-template-columns: 2fr 1.3fr;
-    grid-template-rows: 1fr 2fr;
     width: 70vw;
     margin: auto;
     gap: 6rem;
-    row-gap: 4rem;
+    padding-bottom: 5%;
+}
+
+.quarter{
+    display: grid;
+    grid-template-columns: 1.3fr 2fr;
+    align-items: center;
+    width: 70vw;
+    margin: auto;
+    gap: 6rem;
 }
 
 .row{
@@ -153,7 +159,7 @@ h4{
     height: 40px; 
 }
 
-#section3 .each{
+.section-bg .each{
     align-items:flex-start;
 }
 
@@ -161,6 +167,40 @@ h4{
     margin-bottom: 3rem;
 }
 
+.footnote{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70vw;
+    margin: auto;
+    padding: 5% 0%;
+
+}
+
+.foot-text{
+    width: 30%;
+}
+
+.btn{
+    display: flex;
+    gap: 5px;
+    border-radius: 25px;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: fit-content;
+    padding: 15px 20px;
+    background-color: var(--primary-color);
+}
+
+.arrow{
+    width: 20px;
+    height: 20px;
+}
+
+.btn h4{
+    margin-bottom: 0;
+}
 
 
 
