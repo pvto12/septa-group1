@@ -263,10 +263,16 @@ section {
 	display: flex;
 
 	position: relative;
+	border: 2px solid red;
+}
+
+.why-choose-us .left-side {
+	padding: 0 0 0 12rem;
 }
 
 .why-choose-us .right-side {
 	width: 50%;
+	flex: 1;
 
 	background-color: var(--bg-grey);
 }
