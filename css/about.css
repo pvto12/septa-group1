@@ -100,7 +100,6 @@ div hr {
 	align-items: center;
 	justify-content: space-between;
 	width: 100%;
-	border: 2px solid red;
 	margin-bottom: 8rem;
 }
 
@@ -117,6 +116,8 @@ div hr {
 	text-decoration: none;
 	color: var(--black);
 	font-weight: 700;
+	display: block;
+	padding: 4px 8px;
 }
 
 .cta button {
@@ -143,6 +144,11 @@ button svg {
 
 .secondary-nav ul {
 	display: flex;
+	margin-bottom: 2rem;
+}
+
+.secondary-nav ul li:last-child {
+	font-weight: 700;
 }
 
 .secondary-nav ul li {
@@ -152,6 +158,12 @@ button svg {
 
 .secondary-nav ul li a {
 	text-decoration: none;
+	color: var(--black);
+}
+
+.secondary-nav p {
+	font-weight: 700;
+	font-size: 1.6rem;
 }
 
 /* Header */
