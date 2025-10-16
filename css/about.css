@@ -1,0 +1,40 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+:root {
+	--black: #282d30;
+	--orange: #e99700;
+	--bg-orange: #fff8d8;
+	--grey: #f0efea;
+
+	--primary-font: "Poppins";
+	--secondary-font: "Montserrat";
+}
+
+html {
+	font-size: 62.5%;
+}
+
+body {
+	font-size: 1.6rem;
+	font-size: var(--primary-font);
+}
+
+/* General styles */
+header {
+	background-color: var(--tertiary-color);
+}
+.nav-container {
+	padding: 0 12rem;
+
+	border: 2px solid red;
+}
+
+/* Header */
+
+/* Main */
+
+/* Footer */
