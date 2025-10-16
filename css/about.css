@@ -8,11 +8,10 @@
 	--black: #282d30;
 	--orange: #e99700;
 	--bg-orange: #fff8d8;
-    --bg-grey: #edeae0;
+	--bg-grey: #edeae0;
 	--grey: #f0efea;
-    --white: #f8f8ff
-    	--blue-gray: #404040;
-
+	--white: #f8f8ff;
+	--duke-blue: #012169;
 
 	--primary-font: "Poppins";
 	--secondary-font: "Montserrat";
@@ -25,12 +24,11 @@ html {
 body {
 	font-size: 1.6rem;
 	font-size: var(--primary-font);
-
 }
 
 /* General styles */
 header {
-    background-color: var(--bg-grey);
+	background-color: var(--bg-grey);
 	/* background-color: var(--tertiary-color); */
 }
 .nav-container {
@@ -46,18 +44,19 @@ header {
 main {
 	background-color: var(--white);
 
-    border: 2px solid red;
+	border: 2px solid red;
 }
 
 section {
 	padding: 0 12rem;
 }
 
-.our-story, .update{
-    background-color: var(--bg-grey);
+.our-story,
+.update {
+	background-color: var(--bg-grey);
 }
 
 /* Footer */
 footer {
-    background-color: var();
+	background-color: #06192c;
 }
