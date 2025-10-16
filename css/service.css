@@ -9,15 +9,23 @@ body{
 
 .nav-bar{
  display: flex;
- justify-content: center;
- justify-content: space-around; 
+ flex-direction: column;
+ padding: 0px 175px;
  height: 320px;
- background-color: rgb(243, 206, 243);
+ background-color: #f0efea;
+ position: relative;
 }
+.semi-cont{
+ display: flex;
+}
+.logo{
+ background-color:#f0efea;
+}
+
 
 .info{
  display: flex;
- gap: 13px;
+ gap: 7px;
 }
 
 .info p{
@@ -33,6 +41,11 @@ body{
 .info-call, .info-loc, .info-mail{
  display: flex;
 }
+.nav-list{
+ display: flex;
+ width: 1000px;
+ justify-content: space-between;
+}
 
 nav ul li{
  list-style: none;
@@ -47,22 +60,38 @@ nav ul li{
  gap: 16px;
  margin-top: 25px;
 }
+ .nav-list button{
+ background-color: #fad47c;
+ width: 150px;
+ height: 35px;
+ border-radius: 20px;
+ margin-top: 15px;
+ border: 0px;
+ position: relative;
+}
+.nav-list img{
+ position: absolute;
+ top: 10px;
+}
+
 .nav-last{
  display: flex;
  gap: 5px;
+ position: relative;
+ width: 244px;
 }
 
 .nav-last img{
  height: 13px;
 }
-.socials button{
- background-color: #fad47c;
- width: 150px;
- height: 35px;
- border-radius: 20px;
- margin-right: 20px;
- margin-top: 25px;
- border: 0px;
+.nav-cont2{
+ display: flex;
+ width: 1000px;
+ height: 45px;
+ justify-content: space-between;
+}
+.nav-cont2 p{
+ font-size: 14px;
 }
 
 .time{
@@ -76,8 +105,27 @@ nav ul li{
  margin-top: 15px;
 }
 .socials{
- margin-top: 18px;
  display: flex;
+ position: absolute;
+ top: 17px;
+ right: 0px;
+}
+.tx-p{
+ display: flex;
+ gap: 40px;
+ font-size: 12px;
+ color: #475569;
+}
+.txt-h{
+ position: absolute;
+ top: 150px;
+ left: 550px;
+}
+#sp{
+ font-weight: 800;
+}
+.txt-h h1{
+ margin-top: 1px;
 }
 .socials img{
  width: 15px;
@@ -215,7 +263,14 @@ nav ul li{
    color: coral;
  }
  .projects hr{
-  margin: 20px 60px;
+  margin: 20px 175px;
+  font-weight: lighter;
+ }
+ .projects{
+  background-color: #f8f4e2;
+  margin-top: 75px;
+  padding-top: 5px;
+  
  }
  
  .button2{
@@ -234,23 +289,112 @@ nav ul li{
   font-size: 12px;
   color: #475569;
  }
+ #b1{
+  background-color: #ecb754;
+  color: black;
+  position: relative;
+ }
+ .button2 img{
+  position: absolute;
+  right: 12px;
+  bottom: 10px;
+ }
 
  .cont2{
   display: flex;
   gap: 20px;
   justify-content: center;
+  margin-top: 45px;
  }
 
- .cont3{
+ .cont3, .cont5{
   display: flex;
   justify-content: space-between;
-  /* gap: 20px; */
+  margin: 0px 175px;
+ }
+ .box1, .box2, .box3,.box4{
+  border-bottom: 1px solid #d3dff0;
+  font-size: 15px;
+  color: #293649;
  }
 
- .txt1{
+ .txt1, .txt2, .txt3, .txt4{
   display: flex;
+  gap: 250px;
+  /* background-color: black; */
+  width: 550px;
+  position: relative;
+  font-size: 13px;
+ }
+ #tx-b1, #tx-b2, #tx-b3, #tx-b4{
+  height: 20px;
+  width: 80px;
+  position: absolute;
+  top: 13px;
+  right: 0px;
+  border: 1px solid #646e7c;
+  font-size: 10px;
  }
 
- .txt2{
+.cont4{
   display: flex;
+  justify-content: space-between;
+  margin-top: 45px;
+  margin-left: 175px;
+  margin-right: 175px;
+ }
+
+ .rec{
+  text-align: center;
+  margin: 65px 0px 30px 0px;
+ }
+ #rec-b{
+  background-color: black;
+  border-radius: 20px;
+  color: white;
+  width: 200px;
+  position: relative;
+  margin: 0px 0px 50px 0px;
+ }
+ .rec img{
+  position: absolute;
+  right: 25px;
+  bottom: 10px;
+ }
+ .news1{
+  display: flex;
+  justify-content: space-between;
+  margin: 85px 175px 0px 175px;
+ }
+
+ .N-txt{
+  width: 300px;
+ }
+ .N-item{
+  position: relative;
+  width: 400px;
+ }
+ .N-item input{
+  width: 200px;
+  height: 5px;
+  padding: 25px;
+  border-radius: 20px;
+  position: absolute;
+  top: 35px;
+  border: 1px solid #646e7c;
+ }
+
+ .N-item button{
+  height: 40px;
+  border-radius: 20px;
+  position: absolute;
+  top:42px ;
+  right: 65px;
+  border: 1px solid #646e7c;
+  background-color:#ecb754 ;
+ }
+ .N-item img{
+  position: absolute;
+  right: 17px;
+  bottom: 10px;
  }
