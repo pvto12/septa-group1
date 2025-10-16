@@ -264,6 +264,8 @@ section {
 
 	position: relative;
 	border: 2px solid red;
+
+	gap: 8rem;
 }
 
 .why-choose-us .left-side {
@@ -279,6 +281,18 @@ section {
 
 .why-choose-us .right-side img {
 	width: 20px;
+}
+
+.why-choose-us .right-side img:nth-child(1) {
+	border: 2px solid green;
+}
+
+.why-choose-us .right-side img:nth-child(2) {
+	border: 2px solid red;
+}
+
+.why-choose-us .right-side img:nth-child(3) {
+	border: 2px solid blue;
 }
 
 /* Footer */
