@@ -6,7 +6,7 @@
 
 :root {
 	--black: #282d30;
-	--orange: #e99700;
+	--orange: #e99600;
 	--bg-orange: #fff8d8;
 	--bg-grey: #edeae0;
 	--grey: #f0efea;
@@ -117,7 +117,7 @@ div hr {
 .cta ul li a {
 	text-decoration: none;
 	color: var(--black);
-	font-weight: 700;
+	font-weight: 600;
 	display: block;
 	padding: 4px 8px;
 }
@@ -128,7 +128,7 @@ div hr {
 	border: none;
 	outline: none;
 	border-radius: 12px;
-	font-weight: 700;
+	font-weight: 600;
 	cursor: pointer;
 }
 
@@ -151,7 +151,7 @@ button svg {
 }
 
 .secondary-nav ul li:last-child {
-	font-weight: 700;
+	font-weight: 600;
 }
 
 .secondary-nav ul li {
@@ -165,7 +165,7 @@ button svg {
 }
 
 .secondary-nav p {
-	font-weight: 700;
+	font-weight: 600;
 	font-size: 3.6rem;
 	font-family: var(--primary-font);
 }
@@ -195,6 +195,7 @@ section {
 	margin: 0 auto;
 	padding: 6rem 18rem;
 	gap: 6.4rem;
+	font-family: var(--primary-font);
 }
 
 .about .left-side {
@@ -250,7 +251,7 @@ section {
 }
 
 .video p {
-	font-weight: 700;
+	font-weight: 600;
 }
 
 .why-choose-us {
@@ -362,6 +363,7 @@ section hr:first-child {
 	justify-content: space-around;
 	align-items: center;
 	padding: 2.8rem 0;
+	font-family: var(--primary-font);
 }
 
 .achievement h3 {
@@ -384,6 +386,7 @@ section hr:first-child {
 	padding: 8rem 0;
 	text-align: center;
 	font-size: 1.2rem;
+	font-family: var(--primary-font);
 }
 
 .our-story > h4 {
@@ -394,7 +397,6 @@ section hr:first-child {
 
 .our-story > h2 {
 	font-size: 2.4rem;
-	font-family: var(--secondary-font);
 }
 
 .choose-container {
@@ -419,6 +421,7 @@ section hr:first-child {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+	font-family: var(--primary-font);
 }
 
 .top h4 {
@@ -430,19 +433,22 @@ section hr:first-child {
 .right > h2 {
 	font-size: 2.4rem;
 	width: 20rem;
-	font-family: var(--primary-font);
 }
 
 .top button {
 	padding: 9.2px 12px;
 	background-color: transparent;
 	border-radius: 24px;
-	font-weight: 700;
+	font-weight: 600;
 	cursor: pointer;
 	border: 1px solid var(--black);
 	display: flex;
 	align-items: center;
 	justify-content: center;
+}
+
+.bottom {
+	font-family: var(--primary-font);
 }
 
 .members {
@@ -490,8 +496,9 @@ section hr:first-child {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-
 	padding: 4rem 12rem;
+	margin: 0;
+	font-family: var(--primary-font);
 }
 
 .update .left {
@@ -499,7 +506,40 @@ section hr:first-child {
 
 	font-size: 2.4rem;
 	width: 24rem;
-	font-family: var(--primary-font);
+	font-weight: 600;
+}
+
+.update form {
+	width: 100%;
+	display: flex;
+	gap: 2rem;
+}
+
+.update form input {
+	width: 80%;
+
+	border-radius: 16px;
+	border: none;
+	outline: none;
+
+	padding: 0.8rem 1.2rem;
+	font-size: 1.2rem;
+	/* flex: 1; */
+}
+
+.update button {
+	border-radius: 16px;
+	border: none;
+	outline: none;
+	padding: 0.8rem 1.2rem;
+	font-size: 1.6rem;
+	font-weight: 600;
+	background-color: var(--orange);
+	cursor: pointer;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
 /* Footer */
