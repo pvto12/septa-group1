@@ -568,13 +568,13 @@ footer .inner-container {
 
 .footer-section li {
 	margin: 1.2rem 0;
+	list-style: none;
 }
 
 .footer-section li a {
 	color: var(--white);
 	text-decoration: none;
 	font-weight: 500;
-	list-style: none;
 }
 
 .inner-container + hr + div {
