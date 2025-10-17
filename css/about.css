@@ -167,6 +167,7 @@ button svg {
 .secondary-nav p {
 	font-weight: 700;
 	font-size: 3.6rem;
+	font-family: var(--primary-font);
 }
 
 /* Header */
@@ -218,7 +219,7 @@ section {
 	font-size: 2.4rem;
 	margin: 1.6rem 0;
 	width: 80%;
-	font-family: var(--secondary-font);
+	font-family: var(--primary-font);
 }
 
 .right-side p {
@@ -258,6 +259,7 @@ section {
 	height: 42rem;
 
 	margin: 4rem 0;
+	font-family: var(--primary-font);
 }
 
 .why-choose-us .left-side {
@@ -274,8 +276,7 @@ section {
 .why-choose-us .left-side > h2 {
 	font-size: 2.4rem;
 	margin: 1.6rem 0;
-	width: 64%;
-	font-family: var(--secondary-font);
+	width: 60%;
 }
 
 .reason {
@@ -429,7 +430,7 @@ section hr:first-child {
 .right > h2 {
 	font-size: 2.4rem;
 	width: 20rem;
-	font-family: var(--secondary-font);
+	font-family: var(--primary-font);
 }
 
 .top button {
@@ -482,6 +483,23 @@ section hr:first-child {
 
 .next .active {
 	background-color: var(--black);
+}
+
+/* update */
+.update {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+
+	padding: 4rem 12rem;
+}
+
+.update .left {
+	/* width: 44rem; */
+
+	font-size: 2.4rem;
+	width: 24rem;
+	font-family: var(--primary-font);
 }
 
 /* Footer */
