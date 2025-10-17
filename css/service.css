@@ -7,7 +7,7 @@ body{
  font-family: "poppins", sans-serif;
 }
 
-.nav-bar{
+ /* .nav-bar{
  display: flex;
  flex-direction: column;
  padding: 0px 175px;
@@ -15,12 +15,12 @@ body{
  background-color: #f0efea;
  position: relative;
 }
-.semi-cont{
+/* .semi-cont{
  display: flex;
 }
 .logo{
  background-color:#f0efea;
-}
+} 
 
 
 .info{
@@ -129,14 +129,14 @@ nav ul li{
 }
 .socials img{
  width: 15px;
-}
+/* } */
 
 .header{
  display: flex;
  gap: 480px;
  align-items: center;
  justify-content: center;
-}
+} 
 .services hr{
  margin: 0px 50px;
 }
@@ -204,6 +204,8 @@ nav ul li{
  .text{
   display: flex;
   flex-direction: column;
+  padding-top: 25px;
+  gap: 25px;
   background-color: rgb(250, 245, 241); ;
  }
 
@@ -227,7 +229,7 @@ nav ul li{
  }
  .sec1 img, .sec2 img, .sec3 img, .sec4 img{
   position: absolute;
-  top: 25px;
+  top: 0.5px;
  }
  .section2 h3, .section2 p{
   color: #475569;
@@ -251,7 +253,7 @@ nav ul li{
   width: 600px;
   height: 400px;
   left: 90px;
-  bottom: 120px;
+  bottom: 70px;
  }
 
  .cont1 {
@@ -302,7 +304,7 @@ nav ul li{
 
  .cont2{
   display: flex;
-  gap: 20px;
+  gap: 45px;
   justify-content: center;
   margin-top: 45px;
  }
@@ -314,7 +316,7 @@ nav ul li{
  }
  .box1, .box2, .box3,.box4{
   border-bottom: 1px solid #d3dff0;
-  font-size: 15px;
+  font-size: 13px;
   color: #293649;
  }
 
@@ -324,13 +326,13 @@ nav ul li{
   /* background-color: black; */
   width: 550px;
   position: relative;
-  font-size: 13px;
+  font-size: 11px;
  }
  #tx-b1, #tx-b2, #tx-b3, #tx-b4{
   height: 20px;
   width: 80px;
   position: absolute;
-  top: 13px;
+  top: 3px;
   right: 0px;
   border: 1px solid #646e7c;
   font-size: 10px;
@@ -380,7 +382,7 @@ nav ul li{
   padding: 25px;
   border-radius: 20px;
   position: absolute;
-  top: 35px;
+  top: .5px;
   border: 1px solid #646e7c;
  }
 
@@ -388,7 +390,7 @@ nav ul li{
   height: 40px;
   border-radius: 20px;
   position: absolute;
-  top:42px ;
+  top:10px ;
   right: 65px;
   border: 1px solid #646e7c;
   background-color:#ecb754 ;

@@ -132,9 +132,9 @@ justify-content: center;
 
 }
 .hero p {
-  margin: 0;
   font-size: 1rem;
   color: #000;
+  display: flex;
   margin-top: 2rem;
 }
 
@@ -302,5 +302,5 @@ gap: 20px;
 }
 
 .foot-handle img{
-width: 10%;
+width: 8%;
 }

@@ -18,7 +18,7 @@ body {
     display: inline-block;
     position: relative;
 }
-
+/* (gave absolute pos to be able move it around,used bottom and top to position it) */
 .underline {
     width: 70px;
     height: 5px;
@@ -26,8 +26,8 @@ body {
     background-color: #E99700;
     display: inline;
     position: absolute;
-    bottom: -10px;
-    top: 140px;
+    bottom: 30px;
+    top: 100px;
 }
 
 .section1-container {
@@ -99,7 +99,7 @@ body {
     font-weight: bold;
     color: #282D30;
     margin-bottom: 10px;
-    margin-top: -60px;
+    margin-top: 20px;
     line-height: auto;
     align-items: center;
 }
@@ -108,7 +108,7 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin: auto;
+    /* margin: auto; */
 }
 
 .wh-text {
@@ -119,6 +119,10 @@ body {
     border-radius: 15px 0px 0px 15px;
     padding-left: 30px;
     padding-right: 30px;
+    height: 80px;
+}
+.wh-text h4{
+    margin-top: 25px;
 }
 
 .wh-container {
@@ -148,6 +152,7 @@ body {
     margin-top: 2px;
 }
 
+/* gave the container an absolute position to be able to move it around(z-index was used to place it abover other elements i.e your .mv-container) */
 .core-principlescont {
     background-color: #E99700;
     display: grid;
@@ -159,6 +164,10 @@ body {
     width: 676px;
     height: 125px;
     margin-top: 80px;
+    position: absolute;
+    top: 1320px;
+    z-index: 1;
+    margin-left: 400px;
 }
 
 .principles-container {
@@ -188,7 +197,7 @@ body {
     background-color: #ffffff;
     display: flex;
     justify-content: center;
-    margin: auto;
+    margin: 150px;
     border-radius: 15px;
     width: 1180px;
     height: 384px;
@@ -198,6 +207,11 @@ body {
 
 .mv-smallcont {
     flex: 1;
+}
+
+.vertical{
+    height: 200px;
+    width: 500px;
 }
 
 .mv-smallcont p {
@@ -218,13 +232,14 @@ body {
     flex-direction: row;
 }
 
+/* commented margin and padding out cause they were obstructing */
 .mv-icon {
     width: 35px;
     height: 35px;
     color: #282D30;
     padding-left: 80px;
-    margin-top: 35px;
-    padding-right: 10px;
+    /* margin-top: 35px; */
+    /* padding-right: 10px; */
 }
 
 .mv-icon img {
@@ -233,10 +248,15 @@ body {
     color: #282D30;
 }
 
+/* added this to shift the h4(was joined together with the icon) */
+.mv-title h4{
+    margin-left:45px;
+}
+
 .section3-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    /* display: flex;
+    flex-direction: column; */
+    /* justify-content: center; */
     margin: auto;
     padding-bottom: 80px;
     padding-top: 80px;
@@ -249,37 +269,39 @@ body {
     position: relative;
 }
 
+/* changed font weight and margin top to adjust items */
 .section3-subtitle {
-    font-size: 35px;
+    font-size: 25px;
     font-weight: bold;
     color: #282D30;
     margin-bottom: 10px;
-    margin-top: -60px;
+    margin-top: 30px;
     line-height: auto;
     align-items: center;
 }
 
+/* did'nt properly name your container in your html file(you typed .section3.logocont instead of .section3-logocont) */
 .section3-logocont {
     display: grid;
-    max-width: 1000px;
-    width: 1158px;
+    /* max-width: 1000px; */
+    /* width: 1158px; */
     grid-template-columns: repeat(5, 1fr);
-    gap: 10px;
-    margin: 0 auto;
-    padding-left: 50px;
-    padding-right: 50px;
+    gap: 5px;
+    /* margin: 0 auto; */
+     padding-left: 50px;
+    /* padding-right: 50px;  */
 }
 
-.section3-logo {
-    width: 95px;
-    max-width: 1000px;
+ .section3-logo {
+    width: 70px;
+    /* max-width: 1000px; */
     height: 112px;
-    object-fit: contain;
+    /* object-fit: contain; */
     display: flex;
     flex-direction: row;
 }
 
 .section3-logocont img {
-    width: 95px;
+    width: 175px;
     height: 100px;
-}
+} 
