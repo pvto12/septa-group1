@@ -24,8 +24,8 @@ html {
 }
 
 body {
-	font-size: 1.6rem;
-	font-size: var(--primary-font);
+	font-size: 1.2rem;
+	/* font-family: var(--primary-font); */
 }
 
 /* General styles */
@@ -528,7 +528,7 @@ section hr:first-child {
 	border: none;
 	outline: none;
 	padding: 0.8rem 1.2rem;
-	font-size: 1.6rem;
+	font-size: 1.2rem;
 	font-weight: 600;
 	background-color: var(--orange);
 	cursor: pointer;
@@ -540,18 +540,13 @@ section hr:first-child {
 /* Footer */
 footer {
 	background-color: #06192c;
-
 	padding: 4rem 12rem;
 	color: var(--white);
 	font-size: 1.2rem;
-
 	font-family: var(--primary-font);
 }
 
 footer .inner-container {
-	/* color: red; */
-	border: 2px solid red;
-
 	display: grid;
 	grid-template-columns: 24.8rem repeat(4, 1fr);
 	gap: 8rem;
@@ -573,11 +568,26 @@ footer .inner-container {
 
 .footer-section li {
 	margin: 1.2rem 0;
-	/* border: 2px solid red; */
-	list-style: none;
 }
 
 .footer-section li a {
 	color: var(--white);
 	text-decoration: none;
+	font-weight: 500;
+	list-style: none;
+}
+
+.inner-container + hr + div {
+	display: flex;
+	justify-content: space-between;
+}
+
+footer .social_handles ul {
+	display: flex;
+	list-style: none;
+}
+
+footer .social_handles li a i {
+	color: var(--white);
+	margin: 0 5.6px;
 }
