@@ -1,0 +1,307 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'poppins', sans-serif;
+}
+
+.full-page {
+    text-align: center;
+    background-color: #ffffff;
+}
+
+.section-title {
+    font-size: 35px;
+    font-weight: bold;
+    color: #282D30;
+    margin-bottom: 60px;
+    align-items: center;
+    display: inline-block;
+    position: relative;
+}
+/* (gave absolute pos to be able move it around,used bottom and top to position it) */
+.underline {
+    width: 70px;
+    height: 5px;
+    border-radius: 5px;
+    background-color: #E99700;
+    display: inline;
+    position: absolute;
+    bottom: 30px;
+    top: 100px;
+}
+
+.section1-container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 80px;
+    padding: 80px;
+    margin-top: -80px;
+}
+
+.section1-text {
+    flex: 1.5;
+    max-width: 600px;
+    padding-right: 20px;
+}
+
+.section1-text p {
+    font-size: 16px;
+    margin-bottom: 30px;
+    color: black;
+}
+
+.button-container {
+    margin-top: 24px;
+}
+
+.CTA-button {
+    width: 180px;
+    border-radius: 100px;
+    background-color: #E99700;
+    color: white;
+    padding: 12px 30px;
+    cursor: pointer;
+    border: none;
+}
+
+.section-image {
+    flex: 1;
+    max-width: 500px;
+
+}
+.section-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    display: block;
+}
+
+.section2-container {
+    background-color: #FFF8D8;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    padding-bottom: 80px;
+    padding-top: 80px;
+}
+
+.section2-title {
+    font-size: 16px;
+    font-weight: 400px;
+    color: #282D30;
+    position: relative;
+}
+
+.section2-subtitle {
+    font-size: 35px;
+    font-weight: bold;
+    color: #282D30;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    line-height: auto;
+    align-items: center;
+}
+
+.work-hours {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* margin: auto; */
+}
+
+.wh-text {
+    font-size: 16px;
+    font-weight: 200px;
+    background-color: #E99700;
+    color: #ffffff;
+    border-radius: 15px 0px 0px 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    height: 80px;
+}
+.wh-text h4{
+    margin-top: 25px;
+}
+
+.wh-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+    border-radius: 0px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.wh-container:last-child {
+    border-right: none;
+    border-radius: 0px 15px 15px 0px;
+}
+
+.work-day {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.work-time {
+    font-size: 16px;
+    font-weight: normal;
+    margin-top: 2px;
+}
+
+/* gave the container an absolute position to be able to move it around(z-index was used to place it abover other elements i.e your .mv-container) */
+.core-principlescont {
+    background-color: #E99700;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: center;
+    padding: 20px 0;
+    margin: auto;
+    border-radius: 15px;
+    width: 676px;
+    height: 125px;
+    margin-top: 80px;
+    position: absolute;
+    top: 1320px;
+    z-index: 1;
+    margin-left: 400px;
+}
+
+.principles-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    justify-content: center;
+    position:relative;
+    padding: 10px 0;
+}
+
+.principles-container img {
+    display: block;
+    width: 35px;
+    height: 35px;
+    color: #ffffff;
+    margin-bottom: 5px;
+}
+
+.principles-text {
+    font-size: 16px;
+    color: #ffffff;
+}
+
+.mv-container {
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    margin: 150px;
+    border-radius: 15px;
+    width: 1180px;
+    height: 384px;
+    padding-top: 100px;
+    position: relative;
+}
+
+.mv-smallcont {
+    flex: 1;
+}
+
+.vertical{
+    height: 200px;
+    width: 500px;
+}
+
+.mv-smallcont p {
+    font-size: 16px;
+    color: #282D30;
+    flex: 1.5;
+    max-width: 450px;
+    padding-right: 20px;
+    text-align: left;
+    padding-left: 80px;
+}
+
+.mv-title {
+    font-size: 25px;
+    font-weight: bold;
+    color: #282D30;
+    display: flex;
+    flex-direction: row;
+}
+
+/* commented margin and padding out cause they were obstructing */
+.mv-icon {
+    width: 35px;
+    height: 35px;
+    color: #282D30;
+    padding-left: 80px;
+    /* margin-top: 35px; */
+    /* padding-right: 10px; */
+}
+
+.mv-icon img {
+    width: 35px;
+    height: 35px;
+    color: #282D30;
+}
+
+/* added this to shift the h4(was joined together with the icon) */
+.mv-title h4{
+    margin-left:45px;
+}
+
+.section3-container {
+    /* display: flex;
+    flex-direction: column; */
+    /* justify-content: center; */
+    margin: auto;
+    padding-bottom: 80px;
+    padding-top: 80px;
+}
+
+.section3-title {
+    font-size: 16px;
+    font-weight: 400px;
+    color: #282D30;
+    position: relative;
+}
+
+/* changed font weight and margin top to adjust items */
+.section3-subtitle {
+    font-size: 25px;
+    font-weight: bold;
+    color: #282D30;
+    margin-bottom: 10px;
+    margin-top: 30px;
+    line-height: auto;
+    align-items: center;
+}
+
+/* did'nt properly name your container in your html file(you typed .section3.logocont instead of .section3-logocont) */
+.section3-logocont {
+    display: grid;
+    /* max-width: 1000px; */
+    /* width: 1158px; */
+    grid-template-columns: repeat(5, 1fr);
+    gap: 5px;
+    /* margin: 0 auto; */
+     padding-left: 50px;
+    /* padding-right: 50px;  */
+}
+
+ .section3-logo {
+    width: 70px;
+    /* max-width: 1000px; */
+    height: 112px;
+    /* object-fit: contain; */
+    display: flex;
+    flex-direction: row;
+}
+
+.section3-logocont img {
+    width: 175px;
+    height: 100px;
+} 
