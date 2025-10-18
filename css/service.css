@@ -304,9 +304,12 @@ nav ul li{
 
  .cont2{
   display: flex;
-  gap: 45px;
+  margin-left: 175px;
+  margin-right: 175px;
+  justify-content: space-between;
+  /* gap: 45px;
   justify-content: center;
-  margin-top: 45px;
+  margin-top: 45px; */
  }
 
  .cont3, .cont5{
