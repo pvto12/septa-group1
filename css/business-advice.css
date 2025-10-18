@@ -407,6 +407,7 @@ footer {
     align-items: center;
 	color: white;
 	font-size: 1.2rem;
+    margin: 0px -10px;
 }
 
 footer .inner-container {
@@ -418,9 +419,6 @@ footer .inner-container {
     margin: auto;
 }
 
-/* .footer-logo{
-    width:fit-content
-} */
 
 .footer-logo img {
 	margin: 2rem 0;
@@ -432,7 +430,6 @@ footer .inner-container {
 
 .footer-section h5 {
 	font-size: 1rem;
-	/* margin: 2rem 0; */
 }
 
 footer p {
@@ -443,7 +440,6 @@ footer p {
     font-size: 12px;
     margin-left: -2.4rem;
     text-wrap: nowrap;
-    /* width: 250px; */
 }
 
 .footer-section li {
