@@ -1,0 +1,42 @@
+name: Daily News Fetch
+
+on:
+  schedule:
+    # Run at 8:55 AM Nigeria time (7:55 AM UTC)
+    - cron: '55 7 * * *'
+    # Run at 1:00 PM Nigeria time (12:00 PM UTC)
+    - cron: '0 12 * * *'
+
+jobs:
+  fetch-news:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: ./ai-stock-broker-backend
+    
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+      
+      - name: Set up Python 3.13
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.13'
+      
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+      
+      - name: Fetch news headlines
+        run: python -m data.pipeline news
+        env:
+          NEWS_MAX_ARTICLES: '20'
+      
+      - name: Upload artifacts (optional)
+        if: always()
+        uses: actions/upload-artifact@v3
+        with:
+          name: news-logs
+          path: data/logs/news.log
+          retention-days: 7
